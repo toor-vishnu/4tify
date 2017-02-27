@@ -1182,11 +1182,13 @@ footer h4 {color:#fff;}
 
 
 /*-----------------------------------------------------------------------------------*/
-/*	CONTACT FORM
+/*	
+FORM
 /*-----------------------------------------------------------------------------------*/
 /* __________ Contact Form __________ */
 textarea,
-input[type="text"] {
+input[type="text"],
+input[type="email"]	{
 	width:100%;
 	margin:0 0 10px;
 	padding: 10px 8px;
@@ -1224,7 +1226,6 @@ input[type="month"]:focus,
 input[type="time"]:focus,
 input[type="week"]:focus,
 input[type="number"]:focus,
-input[type="email"]:focus,
 input[type="url"]:focus,
 input[type="search"]:focus,
 input[type="tel"]:focus,
